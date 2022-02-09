@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'ISEPP_COM3' );
+define( 'DB_NAME', 'ISEPP_COM3_4' );
 
 /** MySQL database username */
 define( 'DB_USER', 'root' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'root' );
+define( 'DB_PASSWORD', '13m10C93&' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
@@ -66,9 +66,9 @@ define('NONCE_SALT',       'Mb-,M{u 2Agj|xK++R+!:bGd9ITm&) +D}Prdp(i|N7ECCs}>Uz+
 $table_prefix = 'wp_';
 
 // L'url de la page d'accueil de mon site
-define('WP_HOME','http://localhost/Webiti/ISEPP/WP-example/');
+define('WP_HOME','https://www.web-iti.com/isepp-com3-4/');
 // l'url à laquel se trouve mon installation de WordPress
-define('WP_SITEURL','http://localhost/Webiti/ISEPP/WP-example/wp');
+define('WP_SITEURL','https://www.web-iti.com/isepp-com3-4/wp');
 
 // J'indique à WordPress comment il doit télécharger des fichiers
 // Ici: de manière direct (sans passer par un serveur etc.)
@@ -76,7 +76,7 @@ define('FS_METHOD', 'direct');
 
 // Je vais indiquer à WordPress où se trouve le "vrai" dossier "wp-content"
 // Ici je spécifie l'url de mon dossier
-define( 'WP_CONTENT_URL', 'http://localhost/Webiti/ISEPP/WP-example/content' );
+define( 'WP_CONTENT_URL', 'https://www.web-iti.com/isepp-com3-4/content' );
 // Ici le chemin physique vers le dossier
 define( 'WP_CONTENT_DIR', dirname( ABSPATH ) . '/content' );
 
